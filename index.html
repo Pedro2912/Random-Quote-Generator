@@ -5,12 +5,18 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href="dist/style.css" rel="stylesheet">
+		<script src="dist/app.js" defer></script>
+		
 	</head>
 	<body class="body">
+		<main>
+			
       <div class="quoteInfo">
-      	<p class="quote">Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat.</p>
-	<p class="quoteAuthor">-lore</p>
+      	<p class="quote"></p>
+	<a href="" target="_blank" class="quoteAuthor"></a>
       </div>	
-        <button id="generateNew">generate new quote</button>
+        <button type="button" id="generateNew">New Quote</button>
+	<input oninput="this.size = this.value.length" id="tag" type="text" name="tags" placeholder="tags i.e. life, love" value="">
+		</main>
 	</body>
 </html>
