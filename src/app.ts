@@ -40,8 +40,6 @@ const generateNewQuote = async (tag:string | null) => {
 	quote.textContent = `${h2.content}`
 	author.textContent = `-${h2.author}`	
 
-	console.log(h2);
-	
 	author.href = `https://en.wikipedia.org/wiki/${h2.author}`
 	}
 }
